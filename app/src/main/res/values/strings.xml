@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Carros</string>
+    <string name="action_settings">settings</string>
+    <string name="cadastrar_carro">Cadastrar</string>
+    <string name="error">cadastro não realizado!</string>
+    <string name="sucesso">Cadastro com Sucesso!</string>
+    <string name="lista_carros">Lista de Carros.</string>
+    <string name="listar_carros">Listar Carros</string>
+    <string name="zero_registros">Nenhum registros.</string>
+    <string name="lista_de_carros">Ver carros</string>
+    <string name="modelo_carro">Modelo</string>
+    <string name="fabricante_carros">Fabricante</string>
+    <string name="ano_carro">Ano</string>
+    <string name="cor_carro">Cor</string>
+    <string name="motor_carro">Motor</string>
+</resources>

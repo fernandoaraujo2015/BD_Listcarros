@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/row">
+
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TableRow>
+           <TextView
+               android:text="@string/modelo_carro"
+               android:layout_marginRight="10dp" />
+           <TextView
+               android:id="@+id/txtmodelo_carros"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:text="@string/fabricante_carros"
+               android:layout_marginRight="10dp"/>
+           <TextView
+               android:id="@+id/txtfabricante_carro"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:text="@string/ano_carro"
+               android:layout_marginRight="10dp"/>
+           <TextView
+               android:id="@+id/txtAno_carro"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:text="@string/cor_carro"
+               android:layout_marginRight="10dp"/>
+           <TextView
+               android:id="@+id/txtcor"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:text="@string/motor_carro"
+               android:layout_marginRight="10dp"/>
+           <TextView
+               android:id="@+id/txtmotor"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+       </TableRow>
+
+   </TableLayout>
+
+</LinearLayout>
